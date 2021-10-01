@@ -1,0 +1,30 @@
+/*BASIC SETTING*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    height: 100vh;
+}
+
+header{
+    background-color: black;
+    height: 40px;
+}
+
+main{
+    background-color: cadetblue;
+    flex-grow: 1;
+}
+
+footer{
+    background-color: black;
+    height: 40px;
+}
+
