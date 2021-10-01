@@ -32,7 +32,6 @@ body{
 
 header{
     background-color: black;
-    height: 60px;
     text-align: right;
 }
 
@@ -41,6 +40,7 @@ header{
 main{
     flex-grow: 1;
     padding: 20px 0;
+    overflow: auto;
     background: black;
 }
 
@@ -67,10 +67,6 @@ main{
     object-fit: cover;
 }
 
-.yellow-bord{
-    border: 2px solid yel;
-}
-
 .people .name{
     position: absolute;
     bottom: 0;
@@ -81,7 +77,53 @@ main{
 /*FOOTER*/
 
 footer{
-    background-color: black;
-    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+}
+
+.side-lt{
+    display: flex;
+    list-style: none;
+    padding: 5px 0;
+    color: white;
+}
+
+.side-ico{
+    text-align: center;
+    margin: 0 15px;
+}
+
+.side-ico .ico{
+    display: block;
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+.side-c{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 5px;
+    color: white;
+}
+
+.side-c .fa-share-square{
+    color: greenyellow;
+}
+
+.side-ico{
+    text-align: center;
+    margin: 0 15px;
+}
+
+.side-ico .ico{
+    display: block;
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+.side-rt .btn{
+    color: red;
 }
 
